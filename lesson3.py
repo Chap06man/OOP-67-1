@@ -1,8 +1,19 @@
-class Car:
-    def __init__(self,color,model):
-        self.model = model 
+class Animals:
+    def speak(self):
+        print('Издаёт звук')
+
+    def body(self, color, razmer, tip):
         self.color = color
-        self._fined = False
-        self.__max_speed = 0
+        self.razmer = razmer
+        self.tip = tip
+        print(self.color,self.razmer,self.tip)
 
 
+class Dog(Animals):
+    pass
+
+
+dog = Dog()
+
+dog.body('black', 2, 'zloy')
+dog.speak()
