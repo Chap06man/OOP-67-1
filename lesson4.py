@@ -20,9 +20,11 @@ class User:
         user.role = 'admin'
         user.password = 'qwerty123'
         return user
+
 print(f'Всего пользователей: {User.user_count}')
 user1 =User('Sardar','999777888555')
 print(user1.password)
 print(f'Всего пользователей: {User.user_count}')
 admin1 = User.create_admin('Anel','996888777555')
+print(User.create_admin)
 print(User.get_user_count())
