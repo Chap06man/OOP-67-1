@@ -20,6 +20,6 @@ class Duck(Flying, Swimming):
 duck = Duck()
 duck.move()
 # MRO - method resolution order - порядок поиска метода
-# print(Duck.mro())
-# duck.catch_meal()
+print(Duck.mro())
+duck.catch_meal()
 print(Flying.mro())
