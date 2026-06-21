@@ -15,3 +15,4 @@ saske = Hero('Asuna',111,1111)
 
 naruto.action()
 saske.rest()
+print()
