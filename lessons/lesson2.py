@@ -46,3 +46,4 @@ print(isinstance(bus_42, Car))
 vehicles = [car_1, bus_42, truck_1]
 for v in vehicles:
     v.drive_to("Karakol")
+    print()
