@@ -62,3 +62,4 @@ car_1._calculate_fuel()
 print(car_1._Car__max_speed) # такое можно только для быстрого теста
 car_1.__max_speed = 20 # не настоящий __max_speed из класса Car
 car_1.drive_to("Bishkek")
+print()
