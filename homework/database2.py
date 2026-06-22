@@ -77,3 +77,4 @@ if __name__ == "__main__":
 
     print(get_books_by_author("Author1"))
     delete_book_by_id(1)
+    print()
